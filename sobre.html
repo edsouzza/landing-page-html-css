@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS Local -->
+    <link rel="stylesheet" href="css/global.css">
+    <!-- JS Local -->
+    <script src="js/scripts.js" defer></script>
+
+    <title>Website html css e javascript</title>
+</head>
+<body>
+    <!-- header and Home -->
+    <header>
+        <!-- container -->
+        <div class="container">
+            <nav>
+                <a href="/"><img src="img/logo.png" alt="logo"></a>
+                <ul class="ul">
+                    <a href="index.html">Home</a>
+                    <a href="sobre.html">Sobre</a>
+                    <a href="servicos.html">Servicos</a>
+                    <a href="contato.html" class="btn">Contato</a>
+                    <div class="menu-close" onclick="closeMenu()"><i class="fa fa-times-circle" aria-hidden="true"></i></div>
+                </ul>
+                <div class="menu-burger" onclick="openMenu()"><i class="fa fa-bars" aria-hidden="true"></i></div>
+            </nav>
+            <section class="banner">
+                <div class="banner-text">
+                    <h1>sobre a empresa</h1>  
+                    <p>Estamos sempre inovando para melhor atendê-lo</p>
+                    <a href="contato.html" class="btn animate-btn">Entrar em contato</a>
+                </div>                            
+            </section>
+        </div>
+        <!-- end container -->
+    </header>
+    <!-- end header -->
+
+    <!-- sobre -->
+    <section class="sobre">
+        <div class="container">
+            <div class="sobre-text">
+              <h3>Estamos nesse mercado a mais de 8 anos</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim totam earum impedit facere, 
+                incidunt eligendi possimus dolorem officia praesentium quas illum sed quis at omnis accusamus, 
+                eos voluptate nostrum cum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim totam 
+                earum impedit facere, incidunt eligendi possimus dolorem officia praesentium quas illum sed quis 
+                at omnis accusamus, eos voluptate nostrum cum!Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Enim totam earum impedit facere, incidunt eligendi possimus dolorem officia praesentium quas illum
+                 sed quis at omnis accusamus, eos voluptate nostrum cum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim totam earum impedit facere, 
+                 incidunt eligendi possimus dolorem officia praesentium quas illum sed quis at omnis accusamus, 
+                 eos voluptate nostrum cum! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <a href="contato.html" class="btn animate-btn">Entrar em contato</a>
+            </div>
+
+            <div class="sobre-img">
+                <img src="img/sobre.jpg" alt="imagem da seção sobre">
+            </div>    
+        </div>
+    </section>
+    <!-- end sobre -->
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="redes-sociais">
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            </div>
+            <p>Desenvolvido por Edi Aquino de Souza - Edsof</p>
+        </div>
+    </footer>
+    <!-- end footer -->
+</body>
+</html>
